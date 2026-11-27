@@ -1,18 +1,25 @@
 # Mapty
 
-A workout tracking app built with HTML, CSS, and vanilla JavaScript. Log running and cycling workouts on an interactive map and save them locally.
+A workout tracker: click on the map to log a running or cycling workout, and it stays saved in the browser.
+
+**Try it:** https://mhmd7710d.github.io/Maphty-Project/
+
+![Preview](preview.jpg)
+
+## What you can try
+1. Allow location access when the browser asks, so the map centres on you.
+2. Click anywhere on the map and fill in the workout form.
+3. The workout appears in the list; click it to move the map back to it.
+4. Reload the page: your workouts are still there, saved in this browser only.
 
 ## Built with
-HTML, CSS, JavaScript and the Leaflet map library.
+HTML, CSS and vanilla JavaScript with classes, the Geolocation API, Leaflet for the map (OpenStreetMap tiles) and localStorage for saving.
 
-## How to run
-Open the live demo and allow location access, or download this repository and open index.html in a browser.
+## What I practised
+Object-oriented JavaScript with classes and inheritance, the Geolocation API, a third-party map library, and saving and restoring data from localStorage.
 
-Live demo: https://mhmd7710d.github.io/Maphty-Project/
-
-## Features
-- Click the map to log a running or cycling workout at that spot.
-- Workouts are saved in the browser (localStorage).
+## Run it locally
+Download the repository and open `index.html` in a browser. Geolocation needs https or localhost, so the live link above is the easy way.
 
 ## Credits
 Original project from Jonas Schmedtmann's Complete JavaScript Course, all copyright to Jonas Schmedtmann. Personalized by Mohamed Fathy.
